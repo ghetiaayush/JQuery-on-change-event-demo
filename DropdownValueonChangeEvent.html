@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+</head>
+<body>
+<select name="webste" class="sel">
+    <option>--Select Website--</option>
+    <option value="it">ItSolutionStuff.com</option>
+    <option value="hd">HDTuto.com</option>
+    <option value="nice">NiceSnippets.com</option>
+</select>
+   
+<script type="text/javascript">
+    $(".sel").change(function(){
+        var selValue = $(this).val();
+        alert(selValue);
+    });
+</script>
+   
+</body>
+</html>
